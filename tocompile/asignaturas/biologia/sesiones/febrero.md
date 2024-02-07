@@ -5,7 +5,7 @@ order: 1
 # Febrero
 Esquema de contenido de las sesiones de febrero de la asignatura. 
 
-## Sesión del 07 de febrero de 2024
+## 07 de febrero de 2024
 - Anafase;
 - Telofase;
 - Citocinesis (y su diferencia con la cariocinesis);
