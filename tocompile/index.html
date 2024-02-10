@@ -142,14 +142,14 @@
                     await delay(1500);
                     typed.destroy();
                     var typed3 = new Typed('#typed2', {
-                        strings: ['Por ahora, te voy a trasladar a la documentación.', '¡Nos vemos pronto! 👋'],
+                        strings: ['Vamos a dar una vuelta primero por la documentación.', 'Te llevo para allá.'],
                         typeSpeed: 85,
                         backSpeed: 15,
                         loop: false,
                         showCursor: true,
                         onComplete: async function () {
                             await delay(750);
-                            window.location.href = "./load"
+                            window.location.href = "./bienvenida"
                         }
                     })
                 }
