@@ -38,8 +38,7 @@
             }
         }
 
-        #typed,
-        #typed2,
+        #typed4,
         #typed3,
         .typed-cursor {
             display: inline-block;
@@ -115,8 +114,7 @@
         </svg>
     </div>
     <div class="text-container">
-        <p id="typed"></p>
-        <p id="typed2"></p>
+        <p id="typed"></p><p id="typed2"></p>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script>
@@ -133,7 +131,7 @@
         async function typeWriter() {
             await delay(3500);
             var typed = new Typed('#typed', {
-                strings: ['¡Hola!', 'Soy iBi, y es un placer ayudar.', ''],
+                strings: ['Accediendo a la documentación'],
                 typeSpeed: 100,
                 backSpeed: 30,
                 loop: false,
@@ -142,10 +140,10 @@
                     await delay(1500);
                     typed.destroy();
                     var typed3 = new Typed('#typed2', {
-                        strings: ['Vamos a dar una vuelta primero por la documentación.', 'Te llevo para allá.'],
+                        strings: ['...'],
                         typeSpeed: 85,
                         backSpeed: 15,
-                        loop: false,
+                        loop: true,
                         showCursor: true,
                         onComplete: async function () {
                             await delay(750);
